@@ -1,4 +1,4 @@
-# wildcard
+# Wildcard
 The Wildcard class allows a developer to compare two strings for equality, with support for the '\*' and '%' characters treated the same way that SQL uses the characters. A '\*' will match zero or more characters, and a '%' will match any one character. This class is useful in those cases where you want to compare two strings that do not reside in a database.
 
 There are two ways to use this class. The first is useful when you only expect to compare a string with wildcard characters ('\*' and '%') to another string once. Let sWild be a wildcard string, and sTame be a non-wildcard string. The method to use is:
